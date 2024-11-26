@@ -1,0 +1,12 @@
+            - name: md-docs-action
+  # You may pin to the exact commit or the version.
+  # uses: emanuelegiona/md-docs-action@8c2679fa7437327da4795edff1976d6034e171b6
+  uses: anthero-vieira-neto/professional/docs
+  with:
+    # Documentation template to use, in the format username/repositoryname
+    template-repo: # optional, default is emanuelegiona/md-manual-template
+    # Documentation template version, as a valid reference (branch, tag, or SHA) within the selected repository
+    template-ver: # optional, default is v1.0.0
+    # Personal access token (PAT) used to fetch the repository and publish to its gh-pages branch.
+    token: # optional, default is ${{ github.token }}
+          
